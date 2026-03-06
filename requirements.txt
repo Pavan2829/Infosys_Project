@@ -1,0 +1,11 @@
+pymupdf
+transformers
+torch
+streamlit
+neo4j
+sentence-transformers
+numpy
+spacy
+rouge-score
+bert-score
+nltk

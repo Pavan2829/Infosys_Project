@@ -1,0 +1,3202 @@
+[
+    [
+        "Google",
+        "GRANT",
+        "permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works"
+    ],
+    [
+        "Ashish Vaswani\u2217 Google Brain avaswani@google.com Noam",
+        "SHAZEER",
+        "Google Brain noam@google.com Niki Parmar\u2217 Google Research nikip@google.com Jakob Uszkoreit\u2217 Google Research usz@google.com Llion Jones\u2217 Google Research llion@google.com Aidan N. Gomez\u2217\u2020 University of Toronto"
+    ],
+    [
+        "The best performing models",
+        "CONNECT",
+        "the encoder and decoder"
+    ],
+    [
+        "Noam",
+        "PROPOSE",
+        "scaled dot - product attention , multi - head attention and the parameter - free position representation"
+    ],
+    [
+        "Lukasz and Aidan",
+        "SPEND",
+        "countless long days"
+    ],
+    [
+        "neural networks in particular",
+        "ESTABLISH",
+        "transduction problems such as language modeling and machine translation"
+    ],
+    [
+        "Recurrent models",
+        "FACTOR",
+        "computation along the symbol positions of the input and output sequences"
+    ],
+    [
+        "Recent work",
+        "ACHIEVE",
+        "significant improvements in computational efficiency"
+    ],
+    [
+        "Attention mechanisms",
+        "BECOME",
+        "an integral part of compelling sequence modeling and transduc- tion models in various tasks"
+    ],
+    [
+        "2 Background The goal of reducing sequential computation",
+        "FORM",
+        "the foundation of the Extended Neural GPU"
+    ],
+    [
+        "all of which",
+        "USE",
+        "convolutional neural networks as basic building block"
+    ],
+    [
+        "3 Model Architecture Most competitive neural sequence transduction models",
+        "HAVE",
+        "an encoder - decoder structure"
+    ],
+    [
+        "the encoder",
+        "MAP",
+        "z = ( z1"
+    ],
+    [
+        "the decoder",
+        "GENERATE",
+        "an output sequence ( y1 , ... , ym ) of symbols one element"
+    ],
+    [
+        "The Transformer",
+        "FOLLOW",
+        "this overall architecture using stacked self - attention and point - wise , fully connected layers for both the encoder and decoder , shown in the left and right halves of Figure 1 , respectively"
+    ],
+    [
+        "The encoder",
+        "COMPOSE",
+        "6 identical layers"
+    ],
+    [
+        "Each layer",
+        "HAVE",
+        "layers"
+    ],
+    [
+        "The decoder",
+        "COMPOSE",
+        "6 identical layers"
+    ],
+    [
+        "the decoder",
+        "INSERT",
+        "layer , which performs multi - head attention over the output of the encoder stack"
+    ],
+    [
+        ") Multi - Head Attention",
+        "CONSIST",
+        "3.2.1 Scaled Dot - Product Attention We call our particular attention \" Scaled Dot - Product Attention \" ( Figure 2 )"
+    ],
+    [
+        "The input",
+        "CONSIST",
+        "dk"
+    ],
+    [
+        "Additive attention",
+        "COMPUTE",
+        "the compatibility function using a feed - forward network with a single hidden layer"
+    ],
+    [
+        "the two mechanisms",
+        "PERFORM",
+        "additive attention outperforms dot product attention"
+    ],
+    [
+        "The encoder",
+        "CONTAIN",
+        "self - attention layers"
+    ],
+    [
+        "each of the layers in our encoder and decoder",
+        "CONTAIN",
+        "a fully connected feed - forward network , which is applied to each position separately and identically"
+    ],
+    [
+        "The positional encodings",
+        "HAVE",
+        "the same dimension dmodel as the embeddings"
+    ],
+    [
+        "The wavelengths",
+        "FORM",
+        "a geometric progression"
+    ],
+    [
+        "a self - attention layer",
+        "CONNECT",
+        "all positions"
+    ],
+    [
+        "k < n",
+        "CONNECT",
+        "all pairs of input and output positions"
+    ],
+    [
+        "Doing so",
+        "REQUIRE",
+        "a stack of O(n / k ) convolutional layers in the case of contiguous kernels , or O(logk(n"
+    ],
+    [
+        "self - attention",
+        "YIELD",
+        "more interpretable models"
+    ],
+    [
+        "5 Training This section",
+        "DESCRIBE",
+        "the training regime"
+    ],
+    [
+        "Each training batch",
+        "CONTAIN",
+        "a set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens"
+    ],
+    [
+        "5.2 Hardware and Schedule We",
+        "TRAIN",
+        "our models"
+    ],
+    [
+        "each training step",
+        "TAKE",
+        "about 0.4 seconds"
+    ],
+    [
+        "6 Results 6.1 Machine Translation On the WMT 2014 English - to - German translation task , the big transformer model ( Transformer ( big ) in Table 2 )",
+        "OUTPERFORM",
+        "the best previously reported models ( including ensembles ) by more than 2.0 BLEU , establishing a new state - of - the - art BLEU score of 28.4"
+    ],
+    [
+        "Training",
+        "TAKE",
+        "3.5 days"
+    ],
+    [
+        "The Transformer ( big ) model trained for",
+        "USE",
+        "0.1"
+    ],
+    [
+        "Table 2",
+        "SUMMARIZE",
+        "our results"
+    ],
+    [
+        "93.3",
+        "INCREASE",
+        "the maximum output length"
+    ],
+    [
+        "the Transformer",
+        "OUTPERFORM",
+        "the Berkeley- Parser"
+    ],
+    [
+        "Generating sequences with recurrent neural networks . arXiv",
+        "PREPRINT",
+        "arXiv:1308.0850 , 2013"
+    ],
+    [
+        "active memory",
+        "REPLACE",
+        "attention"
+    ],
+    [
+        "Neural GPUs",
+        "LEARN",
+        "algorithms"
+    ],
+    [
+        "Different colors",
+        "REPRESENT",
+        "different heads"
+    ],
+    [
+        "Many of the attention heads",
+        "EXHIBIT",
+        "behaviour that seems related to the structure of the sentence"
+    ],
+    [
+        "ABSTRACT Human - Computer Interaction that characterizes dialogue between man and computer",
+        "GAIN",
+        "momentum in computer interaction techniques"
+    ],
+    [
+        "The authors",
+        "DISCUSS",
+        "similarities and differences in chat - bot implementation techniques"
+    ],
+    [
+        "The last few years",
+        "SEE",
+        "unique peak in interest in chat - bots"
+    ],
+    [
+        "Microsoft bot \u201c Tay \u201d and the decision of Facebook to integrate chat - bot capabilities into Messenger",
+        "SPEED",
+        "development of numerous new chat- bot platforms"
+    ],
+    [
+        "ChatSript engine",
+        "WIN",
+        "a Loebner Prize"
+    ],
+    [
+        "Pandorabots",
+        "USE",
+        "AIML ( Artificial Intelligence Mark - up Language ) which is an open standard for writing chat - bots and open source Java framework"
+    ],
+    [
+        "Facebook Bots for Messenger - Facebook",
+        "LAUNCH",
+        "this tool which allows developers and businesses to build chat - bots for its Messenger platform"
+    ],
+    [
+        "Numerous internet services",
+        "PROVIDE",
+        "ubiquitous connections among people , information and software"
+    ],
+    [
+        "Authors",
+        "ANALYZE",
+        "current chat - bots and state"
+    ],
+    [
+        "Research in Natural Language Processing ( NLP )",
+        "REACH",
+        "their peak intensity"
+    ],
+    [
+        "NLU",
+        "COMPRISE",
+        "everything related to machine reading comprehension"
+    ],
+    [
+        "the NLU component",
+        "REPRESENT",
+        "a way to transform input into a semantic representation"
+    ],
+    [
+        "Semantic reasoners",
+        "INFER",
+        "logical consequences"
+    ],
+    [
+        "The notion of a semantic reasoner",
+        "GENERALIZE",
+        "that of an inference engine"
+    ],
+    [
+        "chat - bot usage",
+        "INTRODUCE",
+        "different types of commercial applications such as : Personal assistants ; Travel agents ; Customer service representatives ; Technical support ; Automatic call routing"
+    ],
+    [
+        "The ideal technology",
+        "MEET",
+        "the following requirements : To be based on an open source platform ; To be simple enough and easy to implement ; To be able to connect with the customized ontologies and have support of the free source community"
+    ],
+    [
+        "The selected technology",
+        "ENABLE",
+        "the construction and implementation of a chat - bot on Android and iOS platform"
+    ],
+    [
+        "the second section",
+        "PROVIDE",
+        "a background of chat - bot technology"
+    ],
+    [
+        "The third section",
+        "PROVIDE",
+        "an overview of the AIML 1.0 and AIML 2.0"
+    ],
+    [
+        "The fourth section",
+        "PROVIDE",
+        "an overview of the ChatScript language"
+    ],
+    [
+        "The fifth section",
+        "PRESENT",
+        "a comparison of AIML and Chatscript language"
+    ],
+    [
+        "BACKGROUND In 1950 Alan Turing",
+        "PUBLISH",
+        "an article"
+    ],
+    [
+        "Joseph Weizenbaum 's program ELIZA , published in 1966",
+        "FOOL",
+        "users"
+    ],
+    [
+        "AIML",
+        "DEFINE",
+        "a class object that is responsible for modelling the patterns of conversation"
+    ],
+    [
+        "AIML",
+        "HAVE",
+        "its advantages and disadvantages"
+    ],
+    [
+        "Original AIML",
+        "HAVE",
+        "no possibility of extension"
+    ],
+    [
+        "3 AIML",
+        "HAVE",
+        "relatively poor matching patterns"
+    ],
+    [
+        "the ALICE A.I. Foundation",
+        "RELEASE",
+        "the AIML 2.0 specification"
+    ],
+    [
+        "The sets and maps",
+        "INTRODUCE",
+        "11"
+    ],
+    [
+        "Sets and maps",
+        "HAVE",
+        "a higher priority than and * when pattern matching"
+    ],
+    [
+        "Maps",
+        "CONTAIN",
+        "assignments from one term"
+    ],
+    [
+        "AIML 2.0",
+        "ENABLE",
+        "access to the Wolfram Alpha , Trueknowledge.com , Answers.com , Weather Service , Shopping sites , other chat - bots and Netbase"
+    ],
+    [
+        "AIML",
+        "EXTRACT",
+        "domain knowledge"
+    ],
+    [
+        "category tag",
+        "DEFINE",
+        "a question - response pair"
+    ],
+    [
+        "The keyword",
+        "INSTRUCT",
+        "chat - bot"
+    ],
+    [
+        "Program AB",
+        "IMPLEMENT",
+        "AIML 2.0 features including the capability to connect to remote bots and web services through the new tag"
+    ],
+    [
+        "Program AB",
+        "IMPLEMENT",
+        "some memory optimizations that make it possible to run a chat - bot on a mobile device or embedded system"
+    ],
+    [
+        "Querying the customized ontology < category><pattern > SPEEDOF * < /pattern > < template > <",
+        "GET",
+        "var="
+    ],
+    [
+        "the SPEEDOF keyword defined in the < pattern > tag",
+        "TRIGGER",
+        "the query defied in the < template > tag for the entered entity variable"
+    ],
+    [
+        "Query",
+        "RETURN",
+        "hasSpeed attribute value of the entity variable entered in the < pattern > tag"
+    ],
+    [
+        "the successor app CallMom",
+        "BECOME",
+        "the first virtual assistant"
+    ],
+    [
+        "The AIML 2.0 specification",
+        "INCLUDE",
+        "several features that support development of mobile apps with chat - bot functionality"
+    ],
+    [
+        "The program",
+        "INPUT",
+        "one or more sentences from the user"
+    ],
+    [
+        "A full rule",
+        "HAVE",
+        "a kind , a label , a pattern , and an output"
+    ],
+    [
+        "Topics",
+        "INVOKE",
+        "other topics"
+    ],
+    [
+        "The system",
+        "EXECUTE",
+        "rules"
+    ],
+    [
+        "WordNet",
+        "GIVE",
+        "short , general definitions"
+    ],
+    [
+        "ChatScript",
+        "HAVE",
+        "ability to read structured JSON ( JavaScript Object Notation ) data from websites and Postgres support for big data or large - user - volume chat- bots"
+    ],
+    [
+        "ChatScript",
+        "HAVE",
+        "several routines for calling external resources"
+    ],
+    [
+        "Knowledge acquisition ChatSript",
+        "HAVE",
+        "an option for memorizing certain kinds of information and use that information in the future conversations"
+    ],
+    [
+        "ChatScript",
+        "MEMORIZE",
+        "parts of chat"
+    ],
+    [
+        "ChatScript",
+        "CREATE",
+        "facts \u2014 subject , verb , object triples \u2014"
+    ],
+    [
+        "ChatSript",
+        "HAVE",
+        "possibility to connect to the external ontologies and acquire knowledge from the ontology and write this knowledge into local concept files"
+    ],
+    [
+        "the main program",
+        "CONTROL",
+        "the mobile application"
+    ],
+    [
+        "The full dictionary",
+        "TAKE",
+        "25 MB"
+    ],
+    [
+        "Table 1",
+        "SHOW",
+        "the comparison of AIML and ChatScript"
+    ],
+    [
+        "The selected technology",
+        "ENABLE",
+        "the construction and implementation of a chat - bot"
+    ],
+    [
+        "Condition",
+        "LOOP",
+        "< loop > tag"
+    ],
+    [
+        "Request - New template",
+        "REQUEST",
+        "tag"
+    ],
+    [
+        "Learning - New template",
+        "LEARN",
+        "learnf"
+    ],
+    [
+        "Explode - New template",
+        "EXPLODE",
+        "tag"
+    ],
+    [
+        "AIML 2.0",
+        "INTRODUCE",
+        "the program AB"
+    ],
+    [
+        "Program AB",
+        "IMPLEMENT",
+        "AIML 2.0 features including Sets and Maps , Zero+ wildcards , and the capability to connect to remote bots and web services through the new tag"
+    ],
+    [
+        "Program AB",
+        "IMPLEMENT",
+        "some memory optimizations that make it possible to run a chat - bot on a mobile device or embedded system"
+    ],
+    [
+        "The last two years",
+        "SEE",
+        "the rise of Transfer Learning"
+    ],
+    [
+        "The trend toward bigger models",
+        "RAISE",
+        "several concerns"
+    ],
+    [
+        "the growing computational and memory requirements of these models",
+        "HAMPER",
+        "wide adoption"
+    ],
+    [
+        "A standard training objective",
+        "INVOLVE",
+        "predicted distribution and the one - hot empirical distribution of training labels"
+    ],
+    [
+        "A model performing well on the training set",
+        "PREDICT",
+        "an output distribution with high probability on the correct class and with near - zero probabilities on other classes"
+    ],
+    [
+        "the student - DistilBERT",
+        "HAVE",
+        "the same general architec- ture as BERT"
+    ],
+    [
+        "DistilBERT",
+        "RETAIN",
+        "97 % of BERT performance"
+    ],
+    [
+        "Inference time of a full pass of GLUE",
+        "TASK",
+        "STS - B ( sen- timent analysis ) on CPU with a batch size of 1"
+    ],
+    [
+        "DistilBERT",
+        "HAVE",
+        "40 % fewer parameters than BERT"
+    ],
+    [
+        "removing the Masked Language Modeling loss",
+        "HAVE",
+        "little impact"
+    ],
+    [
+        "2019 ]",
+        "COMBINE",
+        "the knowledge of an ensemble of teachers using multi - task learning to regularize the distillation"
+    ],
+    [
+        "The authors",
+        "APPLY",
+        "Multi - Task Knowledge Distillation"
+    ],
+    [
+        "2019 ]",
+        "ADOPT",
+        "a similar approach to us by pre - training a multilingual model from scratch solely through distillation"
+    ],
+    [
+        "humans",
+        "PERFORM",
+        "a new language task"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "strong performance on many NLP datasets , including translation , question - answering , and cloze tasks , as well as several tasks that require on - the-\ufb02y reasoning or domain adaptation , such as unscrambling words"
+    ],
+    [
+        "40 A Details of Common Crawl Filtering 43 B Details of Model Training 43 C Details of Test Set Contamination Studies 43 D Total Compute Used to Train Language Models 46 E Human Quality Assessment of Synthetic News Articles 46 F Additional Samples from GPT-3 48 G Details of Task Phrasing and Speci\ufb01cations 50 H Results on All Tasks for All Model Sizes 63 2 1 Introduction Recent years",
+        "FEATURE",
+        "a trend towards pre - trained language representations in NLP systems , applied in increasingly \ufb02exible and task - agnostic ways for downstream transfer"
+    ],
+    [
+        "every new task",
+        "LIMIT",
+        "the applicability of language models"
+    ],
+    [
+        "a language model",
+        "DEVELOP",
+        "a broad set of skills and pattern recognition abilities"
+    ],
+    [
+        "Larger models",
+        "MAKE",
+        "increasingly ef\ufb01cient use of in - context information"
+    ],
+    [
+        "The steeper \u201c in - context learning curves \u201d for large models",
+        "DEMONSTRATE",
+        "improved ability to learn a task from contextual information"
+    ],
+    [
+        "Meta - learning",
+        "REQUIRE",
+        "substantial improvement"
+    ],
+    [
+        "Another recent trend in language modeling",
+        "OFFER",
+        "a way"
+    ],
+    [
+        "Each increase",
+        "BRING",
+        "improvements in text synthesis and/or downstream NLP tasks"
+    ],
+    [
+        "Figure 1.2",
+        "ILLUSTRATE",
+        "the conditions we study"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "promising results in the zero - shot and one - shot settings"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "81.5 F1 on CoQA"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "64.3 % accuracy on TriviaQA"
+    ],
+    [
+        "GPT-3",
+        "DISPLAY",
+        "one - shot and few - shot pro\ufb01ciency at tasks designed to test rapid adaption or on - the-\ufb02y reasoning , which include unscrambling words , performing arithmetic , and using novel words in a sentence after seeing them de\ufb01ned only once"
+    ],
+    [
+        "Section 3",
+        "PRESENT",
+        "results on the full range of tasks"
+    ],
+    [
+        "Section 5",
+        "DISCUSS",
+        "limitations of GPT-3"
+    ],
+    [
+        "Section 6",
+        "DISCUSS",
+        "broader impacts"
+    ],
+    [
+        "an example",
+        "HAVE",
+        "a context and a desired completion ( for example an English sentence and the French translation )"
+    ],
+    [
+        "Figure 2.1",
+        "SHOW",
+        "the four methods using the example of translating English to French"
+    ],
+    [
+        "Sections 2.1 - 2.3 below",
+        "GIVE",
+        "details"
+    ],
+    [
+        "Section 2.4",
+        "DISCUSS",
+        "the details of how we do few - shot , one - shot , and zero - shot evaluations"
+    ],
+    [
+        "Table 2.1",
+        "SHOW",
+        "the sizes and architectures of our 8 models"
+    ],
+    [
+        "All models",
+        "USE",
+        "a context window of nctx = 2048 tokens"
+    ],
+    [
+        "Table 2.2",
+        "SHOW",
+        "the \ufb01nal mixture of datasets that we used in training"
+    ],
+    [
+        "both models",
+        "TAKE",
+        "days of compute"
+    ],
+    [
+        "some datasets",
+        "SEE",
+        "up to 3.4 times"
+    ],
+    [
+        "larger models",
+        "USE",
+        "a larger batch size"
+    ],
+    [
+        "Table 2.1",
+        "SHOW",
+        "the parameter settings we used"
+    ],
+    [
+        "language modeling performance",
+        "FOLLOW",
+        "a power - law"
+    ],
+    [
+        "Performance ( measured in terms of cross - entropy validation loss )",
+        "FOLLOW",
+        "a power - law trend with the amount of compute used for training"
+    ],
+    [
+        "PTB",
+        "ESCAPE",
+        "these issues due to predating the modern internet"
+    ],
+    [
+        "GPT-3",
+        "IMPROVE",
+        "SOTA"
+    ],
+    [
+        "GPT-3 2.7B",
+        "OUTPERFORM",
+        "the SOTA 17B parameter Turing - NLG"
+    ],
+    [
+        "GPT-3 175B",
+        "ADVANCE",
+        "the state of the art"
+    ],
+    [
+        "zero - shot",
+        "USE",
+        "a different format"
+    ],
+    [
+        "a standard language model",
+        "HAVE",
+        "no way of knowing this detail"
+    ],
+    [
+        "\u2192Bob George",
+        "BUY",
+        "some baseball equipment , a ball , a glove , and a"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "86.4 % accuracy"
+    ],
+    [
+        "analysis performed in Section 4",
+        "SUGGEST",
+        "negligible impact on performance"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "ZHR+19"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "83.2 %"
+    ],
+    [
+        "The zero - shot result",
+        "OUTPERFORM",
+        "the \ufb01ne - tuned T5 - 11B"
+    ],
+    [
+        "GPT-3 \u2019s few - shot result",
+        "IMPROVE",
+        "performance"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "14.4 %"
+    ],
+    [
+        "GPT-3 in the few - shot setting",
+        "APPROACH",
+        "the performance of state - of - the - art \ufb01ne - tuned models"
+    ],
+    [
+        "WebQS",
+        "SHOW",
+        "a much larger gain from zero - shot to few - shot ( and"
+    ],
+    [
+        "One - shot and few - shot performance",
+        "MAKE",
+        "signi\ufb01cant gains over zero - shot behavior"
+    ],
+    [
+        "GPT-3",
+        "APPEAR",
+        "able to adapt to this distribution , recovering strong performance in the few - shot setting"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "14.6 %"
+    ],
+    [
+        "the large gain from zero - shot to few - shot",
+        "SUGGEST",
+        "a distribution shift"
+    ],
+    [
+        "GPT-3",
+        "USE",
+        "a single training objective which is not customized or designed for any task in particular"
+    ],
+    [
+        "Zero - shot GPT-3 , which only receives on a natural language description of the task",
+        "UNDERPERFORM",
+        "recent unsupervised NMT results"
+    ],
+    [
+        "Few - shot GPT-3",
+        "OUTPERFORM",
+        "previous unsupervised NMT work"
+    ],
+    [
+        "bold",
+        "INDICATE",
+        "supervised SOTA with relative con\ufb01dence"
+    ],
+    [
+        "each translation task",
+        "IMPROVE",
+        "performance"
+    ],
+    [
+        "GPT-3 in the full few - shot setting further",
+        "IMPROVE",
+        "another 4 BLEU resulting in similar average performance to prior unsupervised NMT work"
+    ],
+    [
+        "GPT-3",
+        "HAVE",
+        "a noticeable skew"
+    ],
+    [
+        "GPT-3",
+        "OUTPERFORM",
+        "prior unsupervised NMT work"
+    ],
+    [
+        "\ufb01ne - tuned language models",
+        "ACHIEVE",
+        "near - human performance"
+    ],
+    [
+        "The largest model",
+        "ACHIEVE",
+        "a score on the development set in all three conditions that exceeds the best recorded score on the task"
+    ],
+    [
+        "Winograd GPT-3",
+        "ACHIEVE",
+        "88.3 % , 89.7 % , and 88.6 % in the zero - shot , one - shot , and few - shot settings"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "70.2 %"
+    ],
+    [
+        "BZB+19 ]",
+        "ASK",
+        "common sense questions about how the physical world works and is intended as a probe of grounded understanding of the world"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "81.0 % accuracy zero - shot , 80.5 % accuracy one - shot , and 82.8 % accuracy few - shot ("
+    ],
+    [
+        "PIQA",
+        "SHOW",
+        "relatively shallow scaling with model size"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "51.4 % accuracy"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "68.8 % , 71.2 % , and 70.1 % which slightly exceeds a \ufb01ne - tuned RoBERTa baseline from [ KKS+20 ]"
+    ],
+    [
+        "in - context learning with GPT-3",
+        "SHOW",
+        "mixed results on commonsense reasoning tasks"
+    ],
+    [
+        "GPT-3",
+        "SET",
+        "SOTA on the new PIQA dataset in all evaluation settings"
+    ],
+    [
+        "GPT-3 in a few - shot setting",
+        "OUTPERFORM",
+        "the \ufb01ne - tuned BERT baseline"
+    ],
+    [
+        "GPT-3",
+        "DEMONSTRATE",
+        "its few - shot learning capabilities"
+    ],
+    [
+        "GPT-3 175B",
+        "ACHIEVE",
+        "only a few points behind measured human performance and state - of - the - art \ufb01ne - tuned models"
+    ],
+    [
+        "few - shot",
+        "GIVE",
+        "a total of 32 examples"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "near - SOTA performance"
+    ],
+    [
+        "GPT-3",
+        "OUTPERFORM",
+        "a \ufb01ne - tuned BERT - large"
+    ],
+    [
+        "SuperGLUE",
+        "INCLUDE",
+        "an NLI dataset , RTE , which evaluates the binary version of the task"
+    ],
+    [
+        "the model",
+        "GENERATE",
+        "the correct answer"
+    ],
+    [
+        "GPT-3",
+        "DISPLAY",
+        "strong pro\ufb01ciency"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "29.2 % accuracy"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "21.3 % accuracy at single digit combined operations ( for example , 9*(7 + 5 ) )"
+    ],
+    [
+        "GPT-3",
+        "DISPLAY",
+        "reasonable pro\ufb01ciency"
+    ],
+    [
+        "The model",
+        "GIVE",
+        "a word with its letters cycled"
+    ],
+    [
+        "The model",
+        "GIVE",
+        "a word where every letter except the \ufb01rst and last have been scrambled randomly"
+    ],
+    [
+        "The model",
+        "GIVE",
+        "a word where every letter except the \ufb01rst 2 and last 2 have been scrambled randomly"
+    ],
+    [
+        "None of the models",
+        "REVERSE",
+        "the letters"
+    ],
+    [
+        "GPT-3",
+        "ACHIEVE",
+        "65.2 %"
+    ],
+    [
+        "the results",
+        "IMPROVE",
+        "24 Figure 3.12 : Zero- , one-,and few - shot performance on SAT analogy tasks , for different sizes of model"
+    ],
+    [
+        "The largest model",
+        "ACHIEVE",
+        "65 % accuracy in the few - shot setting"
+    ],
+    [
+        "All models",
+        "USE",
+        "the same context"
+    ],
+    [
+        "the models",
+        "HAVE",
+        "no access to the speci\ufb01c facts that the article titles refer to or when the article was written"
+    ],
+    [
+        "Other indicators",
+        "INCLUDE",
+        "repetition , non sequiturs , and unusual phrasings"
+    ],
+    [
+        "The GPT-3",
+        "GENERATE",
+        "news article"
+    ],
+    [
+        "Joaquin Phoenix",
+        "MAKE",
+        "headlines"
+    ],
+    [
+        "Nothing task - speci\ufb01c",
+        "PROVIDE",
+        "to GPT-3 other than the conditioning"
+    ],
+    [
+        "the model",
+        "GENERATE",
+        "a plausible conjugation for the word \u201c screeg \u201d"
+    ],
+    [
+        "Another task well suited for few - shot learning",
+        "CORRECT",
+        "English grammar"
+    ],
+    [
+        "Janet",
+        "BREAK",
+        "Bill"
+    ],
+    [
+        "Janet",
+        "BREAK",
+        "Bill 's finger"
+    ],
+    [
+        "Nothing task - speci\ufb01c",
+        "PROVIDE",
+        "to GPT-3"
+    ],
+    [
+        "assumptions that the model makes about what \u201c good \u201d is",
+        "LEAD",
+        "it"
+    ],
+    [
+        "even GPT-3 175B",
+        "OVERFIT",
+        "its training set by a signi\ufb01cant amount , measured relative to a held - out validation set with which it was deduplicated ( Figure 4.1 )"
+    ],
+    [
+        "none of the \ufb02agged examples",
+        "CONTAIN",
+        "paired sentences resembling NMT training data and collisions"
+    ],
+    [
+        "The overlap analysis",
+        "FLAGGE",
+        "29 % of examples"
+    ],
+    [
+        "The overlap analysis",
+        "FLAGGE",
+        "45 % of examples"
+    ],
+    [
+        "GPT-3 samples",
+        "REPEAT",
+        "themselves"
+    ],
+    [
+        "GPT-3 \u2019s in - context learning performance",
+        "HAVE",
+        "some notable gaps on our suite of benchmarks"
+    ],
+    [
+        "GPT-3",
+        "HAVE",
+        "several structural and algorithmic limitations , which could account for some of the issues above"
+    ],
+    [
+        "Synthetic tasks such as wordscrambling or de\ufb01ning nonsense words",
+        "SEEM",
+        "especially likely to be learned de novo"
+    ],
+    [
+        "6 Broader Impacts Language models",
+        "HAVE",
+        "a wide range of bene\ufb01cial applications for society , including code and writing auto - completion , grammar assistance , game narrative generation"
+    ],
+    [
+        "GPT-3",
+        "IMPROVE",
+        "the quality of text generation and adaptability over smaller models"
+    ],
+    [
+        "Examples",
+        "INCLUDE",
+        "misinformation , spam , phishing , abuse of legal and governmental processes , fraudulent academic essay writing and social engineering pretexting"
+    ],
+    [
+        "Language models that produce high quality text generation",
+        "LOWER",
+        "existing barriers"
+    ],
+    [
+        "The ability of GPT-3 to generate several paragraphs of synthetic content that people \ufb01nd dif\ufb01cult to distinguish from human - written text in 3.9.4",
+        "REPRESENT",
+        "a concerning milestone"
+    ],
+    [
+        "6.1.3 External Incentive Structures Each threat actor group",
+        "HAVE",
+        "a set of tactics , techniques , and procedures ( TTPs ) they rely that on to accomplish their agenda"
+    ],
+    [
+        "Having stable infrastructure",
+        "HAVE",
+        "a large impact on the adoption of TTPs"
+    ],
+    [
+        "35 6.2 Fairness , Bias , and Representation Biases present in training data",
+        "LEAD",
+        "models"
+    ],
+    [
+        "Occupations that were more likely to be followed by female identi\ufb01ers",
+        "INCLUDE",
+        "midwife , nurse , receptionist , housekeeper etc"
+    ],
+    [
+        "the majority of occupations",
+        "HAVE",
+        "an even higher probability of being followed by a male identi\ufb01er than a female one than was the case with our original neutral prompt"
+    ],
+    [
+        "One method",
+        "MEASURE",
+        "the mod- els ability to correctly assign a pronoun as the occupation or the participant"
+    ],
+    [
+        "Occupation and participant words",
+        "HAVE",
+        "societal biases associated with them such as the assumption that most occupants are by default male"
+    ],
+    [
+        "GPT-3 175B",
+        "HAVE",
+        "the highest accuracy of all the models ( 64.17 % ) on this task"
+    ],
+    [
+        "All other models",
+        "HAVE",
+        "a higher accuracy for male pronouns with Occupation sentences"
+    ],
+    [
+        "Table 6.1",
+        "SHOW",
+        "the top 10 most favored descriptive words for the model along with the raw number of times"
+    ],
+    [
+        "\u201c Most Favored \u201d here",
+        "INDICATE",
+        "words which were most skewed towards a category by co - occurring with it at a higher rate as compared to the other category"
+    ],
+    [
+        "the resulting sentiment",
+        "REFLECT",
+        "text relating to a discussion of slavery"
+    ],
+    [
+        "Of\ufb01cially \u2019 Hinduism \u2018 Caste \u2019 , \u2018 Cows \u2019 , \u2018 BJP \u2019 , \u2018 Kashmir \u2019 , \u2018 Modi \u2019 , \u2018 Celebrated \u2019 , \u2018 Dharma \u2019 , \u2018 Pakistani \u2019 , \u2018 Originated \u2019 , \u2018 Africa \u2019 Islam \u2018 Pillars \u2019 , \u2018 Terrorism \u2019 , \u2018 Fasting \u2019 , \u2018 Sheikh \u2019 , \u2018 Non - Muslim \u2019 , \u2018 Source \u2019 , \u2018 Charities \u2019 , \u2018 Levant \u2019 , \u2018 Allah \u2019 , \u2018 Prophet \u2019 Judaism \u2018 Gentiles \u2019 , \u2018 Race \u2019 , \u2018 Semites \u2019 , \u2018 Whites \u2019 , \u2018 Blacks \u2019 , \u2018 Smartest \u2019 , \u2018 Racists \u2019 , \u2018 Arabs \u2019 , \u2018 Game \u2019 , \u2018 Russian \u2019 Table 6.2",
+        "SHOW",
+        "the ten most favored words about each religion in the GPT-3 175B model"
+    ],
+    [
+        "6.3 Energy Usage Practical large - scale pre - training",
+        "REQUIRE",
+        "large amounts of computation , which is energy - intensive"
+    ],
+    [
+        "Algorithmic progress",
+        "INCREASE",
+        "the ef\ufb01ciency of such models over time , similar to trends observed in image recognition and neural machine translation"
+    ],
+    [
+        "An early work scaled LSTM",
+        "BASE",
+        "language models"
+    ],
+    [
+        "One line of work",
+        "INCREASE",
+        "the size of transformer models"
+    ],
+    [
+        "Work in this vein",
+        "INCREASE",
+        "model size : 213 million parameters [ VSP+17 ]"
+    ],
+    [
+        "Several efforts",
+        "STUDY",
+        "the effect of scale on language model performance"
+    ],
+    [
+        "language model metalearning",
+        "HAVE",
+        "an inner - loop - outer - loop structure"
+    ],
+    [
+        "prior work",
+        "EXPLORE",
+        "ways of using pre - trained language models in combination with gradient descent to perform few - shot learning [ SS20 ]"
+    ],
+    [
+        "Multi - task learning",
+        "SHOW",
+        "LGH+15 , LSP+18 ] and"
+    ],
+    [
+        "PFB18 ]",
+        "PUSH",
+        "the boundaries"
+    ],
+    [
+        "[ DCLT18 ] , pre\ufb01xLM [ DL15 ] and encoder - decoder",
+        "ARCHITECTURE",
+        "random permu- tations during training"
+    ],
+    [
+        "Many of these techniques",
+        "PROVIDE",
+        "signi\ufb01cant gains on downstream tasks"
+    ],
+    [
+        "Jeffrey Wu",
+        "IMPLEMENT",
+        "the large - scale models , training infrastructure , and model - parallel strategies"
+    ],
+    [
+        "Tom Brown , Dario Amodei , Ben Mann , and Nick Ryder",
+        "CONDUCT",
+        "pre - training experiments"
+    ],
+    [
+        "Melanie Subbiah , Ben Mann , Dario Amodei , Jared Kaplan , Sam McCandlish , Tom Brown , Tom Henighan , and Girish Sastry",
+        "IMPLEMENT",
+        "the downstream tasks and the software framework for supporting them , including creation of synthetic tasks"
+    ],
+    [
+        "Ben Mann",
+        "IMPLEMENT",
+        "sampling"
+    ],
+    [
+        "Prafulla Dhariwal",
+        "IMPLEMENT",
+        "an early version of the codebase"
+    ],
+    [
+        "Rewon Child and Mark Chen",
+        "DEVELOP",
+        "an early version of our model - parallel strategy"
+    ],
+    [
+        "Rewon Child and Scott Gray",
+        "CONTRIBUTE",
+        "the sparse transformer"
+    ],
+    [
+        "Sandhini Agarwal",
+        "CONDUCT",
+        "the fairness and representation analysis"
+    ],
+    [
+        "Girish Sastry and Amanda Askell",
+        "CONDUCT",
+        "the human evaluations of the model"
+    ],
+    [
+        "Ariel Herbert - Voss",
+        "CONDUCT",
+        "the threat analysis of malicious use"
+    ],
+    [
+        "Scott Gray",
+        "DEVELOP",
+        "fast GPU kernels used during training"
+    ],
+    [
+        "Jack Clark",
+        "LEAD",
+        "the analysis of ethical impacts \u2014 fairness and representation , human assessments of the model , and broader impacts analysis"
+    ],
+    [
+        "Dario Amodei , Alec Radford , Tom Brown , Sam McCandlish , Nick Ryder , Jared Kaplan , Sandhini Agarwal , Amanda Askell , Girish Sastry , and Jack Clark",
+        "WRITE",
+        "the paper"
+    ],
+    [
+        "Sam McCandlish",
+        "LEAD",
+        "the analysis of model scaling"
+    ],
+    [
+        "Alec Radford",
+        "ADVISE",
+        "the project"
+    ],
+    [
+        "All models",
+        "USE",
+        "weight decay of 0.1"
+    ],
+    [
+        "Test and validation splits",
+        "HAVE",
+        "similar contamination levels"
+    ],
+    [
+        "such , several language modeling benchmarks plus the Children \u2019s Book Test",
+        "SHOW",
+        "almost complete overlap"
+    ],
+    [
+        "Relative Difference Clean vs All",
+        "SHOW",
+        "the percent change in performance between only the clean examples vs all the examples in the benchmark"
+    ],
+    [
+        "Count",
+        "SHOW",
+        "the number of examples"
+    ],
+    [
+        "E Human Quality Assessment of Synthetic News Articles This appendix",
+        "CONTAIN",
+        "details on the experiments measuring human ability to distinguish GPT-3 - generated synthetic news articles from real news articles"
+    ],
+    [
+        "Participants",
+        "PAY",
+        "$ 12"
+    ],
+    [
+        "Participants",
+        "SPEND",
+        "more time"
+    ],
+    [
+        "Participants",
+        "LEAVE",
+        "comments"
+    ],
+    [
+        "Lower 47 Model Participants",
+        "RECRUIT",
+        "Participants Excluded Genders ( m : f : other )"
+    ],
+    [
+        "accuracy scores despite increased time investment from participants",
+        "SUPPORT",
+        "the \ufb01nding that larger models generate harder - to - distinguish news articles"
+    ],
+    [
+        "Participants",
+        "PAY",
+        "$ 12"
+    ],
+    [
+        "Model generation selection methods , exclusion criteria , and statistical tests",
+        "MIRROR",
+        "those of the previous experiments"
+    ],
+    [
+        "Poem text",
+        "OMIT",
+        "SOME TREES John Ashbery"
+    ],
+    [
+        "Poem text",
+        "OMIT",
+        "Shadows"
+    ],
+    [
+        "To have it ready",
+        "MAKE",
+        "Those ancient gleams"
+    ],
+    [
+        "The one content His lifetime and see no man come",
+        "HAVE",
+        "every happiness , more brave Never the stir of men about a market"
+    ],
+    [
+        "Young , the young man There is a thin blue mist , Walks , a lover now , A darkness rising like smoke",
+        "KNOW",
+        "the streets"
+    ],
+    [
+        "The following \ufb01gures",
+        "ILLUSTRATE",
+        "the formatting and phrasing of all the tasks included in the paper"
+    ],
+    [
+        "The author",
+        "CONSIDER",
+        "politics and religion"
+    ],
+    [
+        "Some",
+        "HAVE",
+        "two potatoes;some three;some up to five"
+    ],
+    [
+        "Mrs. Smith",
+        "TELL",
+        "the children"
+    ],
+    [
+        "Mrs. Smith",
+        "TELL",
+        "them"
+    ],
+    [
+        "The terrible smell of the hatred",
+        "POLLUTE",
+        "your heart"
+    ],
+    [
+        "Mrs. Smith",
+        "ASK",
+        "her students"
+    ],
+    [
+        "My body",
+        "CAST",
+        "a shadow"
+    ],
+    [
+        "Yuval Rabin , whose father , Yitzhak Rabin , was assassinated while serving as Prime Minister of Israel",
+        "CRITICIZE",
+        "Donald Trump"
+    ],
+    [
+        "The son of a former Israeli Prime Minister who was assassinated",
+        "WRITE",
+        "Warns of \" parallels \" between Israel of the 1990s and the U.S"
+    ],
+    [
+        "Rabin",
+        "CONDEMN",
+        "Donald Trump \u2019s aggressive rhetoric"
+    ],
+    [
+        "Rabin",
+        "CONDEMN",
+        "Trump \u2019s aggressive rhetoric"
+    ],
+    [
+        "Rabin",
+        "CONDEMN",
+        "Hillary Clinton \u2019s aggressive rhetoric"
+    ],
+    [
+        "Rabin",
+        "CONDEMN",
+        "U.S. \u2019s aggressive rhetoric"
+    ],
+    [
+        "Rabin",
+        "CONDEMN",
+        "Yitzhak Rabin \u2019s aggressive rhetoric"
+    ],
+    [
+        "Formatted dataset example for ANLI R1 52 Context \u2192 Organisms",
+        "REQUIRE",
+        "energy"
+    ],
+    [
+        "Incorrect Answer",
+        "ABSORB",
+        "light"
+    ],
+    [
+        "Incorrect Answer",
+        "TASTE",
+        "them"
+    ],
+    [
+        "Incorrect Answer",
+        "PUT",
+        "the frosting"
+    ],
+    [
+        "Which skin surface",
+        "PRODUCE",
+        "the most heat"
+    ],
+    [
+        "The \u2018 partial \u2019 evaluation method we use",
+        "COMPARE",
+        "the probability of the completion"
+    ],
+    [
+        "53 Correct Context \u2192 Johnny",
+        "LIKE",
+        "fruits"
+    ],
+    [
+        "The \u2018 partial \u2019 evaluation method we use",
+        "COMPARE",
+        "the probability of the completion"
+    ],
+    [
+        "diplomacy",
+        "CONTINUE",
+        "its rounds"
+    ],
+    [
+        "Direct pressure on the Taliban",
+        "PROVE",
+        "unsuccessful"
+    ],
+    [
+        "the United States",
+        "BEGIN",
+        "a high - level effort to persuade Pakistan to use its influence over the Taliban"
+    ],
+    [
+        "Assistant Secretary of State Karl Inderfurth and the State Department \u2019s counterterrorism coordinator , Michael Sheehan",
+        "MEET",
+        "the possibility of a presidential visit in March as a reward for Pakistani cooperation"
+    ],
+    [
+        "President Clinton",
+        "TELL",
+        "us"
+    ],
+    [
+        "Helsinki",
+        "HAVE",
+        "a population of , an urban population of , and a metropolitan population of over 1.4 million"
+    ],
+    [
+        "Helsinki",
+        "HAVE",
+        "close historical connections with these three cities"
+    ],
+    [
+        "The Helsinki metropolitan area",
+        "INCLUDE",
+        "the urban core of Helsinki , Espoo , Vantaa , Kauniainen , and surrounding commuter towns"
+    ],
+    [
+        "Formatted dataset example for Anagrams 1 ( A1 ) Context \u2192",
+        "UNSCRAMBLE",
+        "the letters"
+    ],
+    [
+        "Perry",
+        "BECOME",
+        "a pawn in the political power struggle between Ditka and Ryan"
+    ],
+    [
+        "Perry \u2019s \" Refrigerator \" nickname",
+        "FOLLOW",
+        "him"
+    ],
+    [
+        "Teammates",
+        "CALL",
+        "\" Biscuit , \""
+    ],
+    [
+        "Ditka",
+        "STATE",
+        "the inspiration for using Perry as a fullback"
+    ],
+    [
+        "Perry",
+        "HAVE",
+        "the opportunity to run the ball during Super Bowl XX"
+    ],
+    [
+        "Perry",
+        "ATTEMPT",
+        "a comeback"
+    ],
+    [
+        "March 1941",
+        "SEE",
+        "an improvement"
+    ],
+    [
+        "The Luftwaffe",
+        "FLY",
+        "4,000 sorties"
+    ],
+    [
+        "The normal force here",
+        "REPRESENT",
+        "the force applied by the table against the object that prevents it from sinking through the table and requires that the table is sturdy enough to deliver this normal force without breaking"
+    ],
+    [
+        "a ball that bounces",
+        "ACCELERATE",
+        "question : is the normal force equal to the force of gravity"
+    ],
+    [
+        "The trend toward lower rents",
+        "SEEM",
+        "surprising"
+    ],
+    [
+        "the recent drop in prices",
+        "MEAN",
+        "question"
+    ],
+    [
+        "true , false , or neither ? answer : Target Completion \u2192 false Figure G.30 : Formatted dataset example for CB 58 Context \u2192",
+        "REGARD",
+        "question : The Top Quark is the last of six flavors of quarks predicted by the standard model theory of particle physics"
+    ],
+    [
+        "An outfitter",
+        "PROVIDE",
+        "everything needed for the safari"
+    ],
+    [
+        "A : Target Completion \u2192 MARCEL DUCHAMP Target Completion \u2192 r mutt Target Completion \u2192 duchamp Target Completion",
+        "MARCEL",
+        "duchamp Target Completion \u2192 R.Mutt Target Completion \u2192 Marcel duChamp Target Completion \u2192 Henri - Robert - Marcel Duchamp Target Completion"
+    ],
+    [
+        "Keinesfalls d\u00a8urfen diese f\u00a8ur",
+        "DEN",
+        "kommerziellen Gebrauch verwendet werden"
+    ],
+    [
+        "Figure G.38 : Formatted dataset example for En\u2192Fr Context \u2192 L\u2019analyse de la distribution de fr\u00b4equence des stades larvaires d\u2019I. verticalis dans",
+        "UNE",
+        "a \u00b4 egalement"
+    ],
+    [
+        "d\u00b4emontr\u00b4e que les",
+        "LARVE",
+        "m^ales \u00b4"
+    ],
+    [
+        "Experience",
+        "GROUND",
+        "arXiv preprint arXiv:2004.10151 , 2020"
+    ],
+    [
+        "Debiasing methods",
+        "COVER",
+        "systematic gender biases"
+    ],
+    [
+        "Realm : Retrieval",
+        "AUGMENT",
+        "training"
+    ],
+    [
+        "The third PASCAL",
+        "RECOGNIZE",
+        "textual entailment challenge"
+    ],
+    [
+        "A large scale",
+        "SUPERVISE",
+        "challenge"
+    ],
+    [
+        "Denoising sequence - to - sequence pre - training for natural language generation , translation , and comprehension . arXiv",
+        "PREPRINT",
+        "arXiv:1910.13461 , 2019"
+    ],
+    [
+        "Train large , then",
+        "COMPRESS",
+        "Rethinking model size for ef\ufb01cient training and inference of transformers , 2020"
+    ],
+    [
+        "a suit of",
+        "CONDUCT",
+        "a new dataset for open book question answering"
+    ],
+    [
+        "The penn treebank",
+        "ANNOTATE",
+        "predicate argument structure"
+    ],
+    [
+        "The lambada dataset : Word prediction requiring a broad discourse context . arXiv",
+        "PREPRINT",
+        "arXiv:1606.06031 , 2016"
+    ],
+    [
+        "Reducing gender bias in word - level language models with a gender - equalizing loss function . arXiv",
+        "PREPRINT",
+        "arXiv:1905.12801 , 2019"
+    ],
+    [
+        "a machine",
+        "FINISH",
+        "your sentence"
+    ],
+    [
+        "providing provenance for their decisions and updating their world knowledge",
+        "REMAIN",
+        "open research prob- lems"
+    ],
+    [
+        "Pre - trained models with a differentiable access mechanism to explicit non- parametric memory",
+        "OVERCOME",
+        "this issue"
+    ],
+    [
+        "20 , 26 , 48 ]",
+        "ADDRESS",
+        "some of these issues"
+    ],
+    [
+        "two recently introduced models that combine",
+        "MASK",
+        "language models"
+    ],
+    [
+        "The retriever ( Dense Passage Retriever [ 26 ] , henceforth DPR )",
+        "PROVIDE",
+        "latent documents conditioned on the input"
+    ],
+    [
+        "the model",
+        "USE",
+        "the same document"
+    ],
+    [
+        "The second approach , RAG - Token",
+        "PREDICT",
+        "each target"
+    ],
+    [
+        "DPR",
+        "FOLLOW",
+        "BERTd(z ) , q(x )"
+    ],
+    [
+        "2.5 Decoding At test time , RAG - Sequence and RAG - Token",
+        "REQUIRE",
+        "different ways to approximate arg maxy p(y|x"
+    ],
+    [
+        "MSMARCO",
+        "HAVE",
+        "some questions that can not be answered in a way that matches the reference answer without access to the gold passages , such as \u201c What is the weather in Volcano , CA"
+    ],
+    [
+        "generating Jeopardy questions conditioned on their answer entities",
+        "CONSTITUTE",
+        "a challenging knowledge - intensive generation task"
+    ],
+    [
+        "Evaluators",
+        "SHOW",
+        "an answer and two generated questions , one from BART and one from RAG"
+    ],
+    [
+        "The task",
+        "REQUIRE",
+        "retrieving evidence from Wikipedia relating to the claim and then reasoning over this evidence to classify whether the claim is true , false , or unveri\ufb01able from Wikipedia alone"
+    ],
+    [
+        "4 Results 4.1 Open - domain Question Answering Table 1",
+        "SHOW",
+        "results for RAG along with state - of - the - art models"
+    ],
+    [
+        "RAG",
+        "SET",
+        "a new state of the art"
+    ],
+    [
+        "RAG",
+        "COMBINE",
+        "the generation \ufb02exibility of the \u201c closed - book \u201d"
+    ],
+    [
+        "RAG",
+        "ENJOY",
+        "strong results"
+    ],
+    [
+        "right column",
+        "USE",
+        "the TQA - Wiki test set"
+    ],
+    [
+        "Model Jeopardy MSMARCO FVR3 FVR2 B-1 QB-1 R - L B-1 Label Acc",
+        "SOTA",
+        "44.2"
+    ],
+    [
+        "RAG",
+        "GENERATE",
+        "correct answers"
+    ],
+    [
+        "RAG - Sequence",
+        "OUTPERFORM",
+        "BART"
+    ],
+    [
+        "RAG",
+        "APPROACH",
+        "state - of - the - art model performance , which is impressive given that ( i ) those models access gold passages with speci\ufb01c information required to generate the reference answer , ( ii ) many questions are unanswerable without the gold passages , and ( iii )"
+    ],
+    [
+        "Table 3",
+        "SHOW",
+        "some generated answers from our models"
+    ],
+    [
+        "Table 4",
+        "SHOW",
+        "over 452 pairs of generations from BART and RAG - Token"
+    ],
+    [
+        "Table 3",
+        "SHOW",
+        "typical generations"
+    ],
+    [
+        "Jeopardy questions",
+        "CONTAIN",
+        "two separate pieces of information"
+    ],
+    [
+        "Figure 2",
+        "SHOW",
+        "an example"
+    ],
+    [
+        "document 1",
+        "DOMINATE",
+        "the posterior"
+    ],
+    [
+        "BART",
+        "COMPLETE",
+        "the generation"
+    ],
+    [
+        "4.4 Fact Veri\ufb01cation Table 2",
+        "SHOW",
+        "our results on FEVER"
+    ],
+    [
+        "his works",
+        "CONSIDER",
+        "classics of American literature"
+    ],
+    [
+        "His wartime experiences",
+        "FORM",
+        "the basis for his novel \u201d A Farewell to Arms \u201d ( 1929 )"
+    ],
+    [
+        "RAG models",
+        "GENERATE",
+        "more speci\ufb01c and factually accurate responses"
+    ],
+    [
+        "The middle ear",
+        "INCLUDE",
+        "the tympanic cavity and the three ossicles"
+    ],
+    [
+        "RAG",
+        "ACHIEVE",
+        "an accuracy"
+    ],
+    [
+        "learned retrieval",
+        "IMPROVE",
+        "results for all tasks"
+    ],
+    [
+        "Table 6",
+        "SHOW",
+        "the results"
+    ],
+    [
+        "Differentiable retrieval",
+        "IMPROVE",
+        "results on all other tasks"
+    ],
+    [
+        "Parametric - only models like T5 or BART",
+        "NEED",
+        "further training to update their behavior as the world changes"
+    ],
+    [
+        "Retrieval",
+        "RECALL",
+        "perfor- mance in NQ"
+    ],
+    [
+        "Such tasks",
+        "INCLUDE",
+        "[ 48 ] , long - form question answering [ 12 ] , Wikipedia article generation"
+    ],
+    [
+        "8 General - Purpose Architectures for NLP Prior work on general - purpose architectures for NLP tasks",
+        "SHOW",
+        "great success"
+    ],
+    [
+        "51 , 52 ]",
+        "PROPOSE",
+        "a single , pre - trained encoder - decoder model that leverages bi - directional attention to achieve stronger performance on discriminative and generative tasks"
+    ],
+    [
+        "Some work",
+        "OPTIMIZE",
+        "the retrieval module"
+    ],
+    [
+        "Other work",
+        "IMPROVE",
+        "the ability of dialog models to generate factual text by attending over fact embeddings"
+    ],
+    [
+        "Modeling of the question",
+        "ANSWER",
+        "task in the yodaqa system"
+    ],
+    [
+        "URL",
+        "HTTPARXIVORGABS",
+        "arXiv"
+    ],
+    [
+        "Knowledge - powered conversational agents",
+        "WIZ",
+        "ard of wikipedia"
+    ],
+    [
+        "Entities as experts",
+        "SPARSE",
+        "memory access with entity supervision"
+    ],
+    [
+        "AI",
+        "EXCEED",
+        "human performance"
+    ],
+    [
+        "Search engine",
+        "GUIDE",
+        "neural machine translation"
+    ],
+    [
+        "Search engine",
+        "GUIDE",
+        "neural machine translation"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1702.08734 , 2017"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:2002.06177 , 2020"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1911.03587 , 2019"
+    ],
+    [
+        "context",
+        "AFFECT",
+        "factual predictions"
+    ],
+    [
+        "The 2nd 15 International Workshop on Search - Oriented Conversational AI",
+        "PAGE",
+        "87\u201392 , Brussels , Belgium , October 2018"
+    ],
+    [
+        "The feature - based approach , such as ELMo ( Peters et al . , 2018a )",
+        "USE",
+        "task - speci\ufb01c architectures that include the pre - trained representations as addi- tional features"
+    ],
+    [
+        "The \ufb01ne - tuning approach , such as the Generative Pre - trained Transformer ( OpenAI GPT ) ( Radford et al . , 2018 )",
+        "INTRODUCE",
+        "minimal task - speci\ufb01c parameters"
+    ],
+    [
+        "The two approaches",
+        "SHARE",
+        "the same objective function"
+    ],
+    [
+        "the authors",
+        "USE",
+        "2017 )"
+    ],
+    [
+        "BERT",
+        "ALLEVIATE",
+        "pre - training objective"
+    ],
+    [
+        "the MLM ob- jective",
+        "ENABLE",
+        "the representation to fuse the left and the right context , which allows us to pre- train a deep bidirectional Transformer"
+    ],
+    [
+        "Un- like Radford et al which uses unidirec- tional language models for pre - training . ( 2018 ) , , BERT uses",
+        "MASK",
+        "language models"
+    ],
+    [
+        "\u2022 BERT",
+        "ADVANCE",
+        "the state of the art"
+    ],
+    [
+        "prior work",
+        "USE",
+        "objectives"
+    ],
+    [
+        "ELMo and its predecessor ( Peters et al . , 2017 , 2018a )",
+        "GENERALIZE",
+        "traditional word embedding re- search along a different dimension"
+    ],
+    [
+        "ELMo",
+        "ADVANCE",
+        "the state of the art"
+    ],
+    [
+        "( 2016 )",
+        "PROPOSE",
+        "learning contextual representations"
+    ],
+    [
+        "OpenAI GPT ( Radford et al . , 2018 )",
+        "ACHIEVE",
+        "2018a"
+    ],
+    [
+        "Computer vision research",
+        "STRATE",
+        "the importance of transfer learning from large pre - trained models , where an effective recipe is to \ufb01ne - tune models"
+    ],
+    [
+        "Each downstream task",
+        "HAVE",
+        "arate \ufb01ne - tuned models"
+    ],
+    [
+        "the BERT Transformer",
+        "USE",
+        "bidirectional self - attention"
+    ],
+    [
+        "The training data generator",
+        "CHOOSE",
+        "15 % of the token positions"
+    ],
+    [
+        "6 5The \ufb01nal model",
+        "ACHIEVE",
+        "97%-98 % accuracy on NSP"
+    ],
+    [
+        "The pre - training procedure",
+        "FOLLOW",
+        "the existing literature on language model pre - training"
+    ],
+    [
+        "BERT",
+        "USE",
+        "the self - attention mechanism to unify these two stages"
+    ],
+    [
+        "The number below each task",
+        "DENOTE",
+        "the number of training examples"
+    ],
+    [
+        "Both BERTBASE and BERTLARGE",
+        "OUTPERFORM",
+        "all sys- tems on all tasks"
+    ],
+    [
+        "BERTLARGE",
+        "OBTAIN",
+        "a score of 80.5"
+    ],
+    [
+        "Table 2",
+        "SHOW",
+        "top leaderboard entries"
+    ],
+    [
+        "The top results from the SQuAD leaderboard",
+        "HAVE",
+        "up - to - date public system descriptions available,11"
+    ],
+    [
+        "4177 System Dev Test EM F1 EM F1 Top Leaderboard Systems ( Dec 10th , 2018 ) Human - - 82.3 91.2 # 1 Ensemble - nlnet - - 86.0 91.7 # 2 Ensemble - QANet - - 84.5 90.5 Published BiDAF+ELMo ( Single ) - 85.6 - 85.8 R.M. Reader ( Ensemble ) 81.2 87.9 82.3 88.5 Ours BERTBASE ( Single ) 80.8 88.5 - - BERTLARGE ( Single ) 84.1 90.9 - - BERTLARGE ( Ensemble ) 85.8 91.8 - - BERTLARGE ( Sgl.+TriviaQA ) 84.2 91.1 85.1 91.8 BERTLARGE ( Ens.+TriviaQA ) 86.2 92.2 87.4 93.2 Table 2",
+        "SQUAD",
+        "1.1 results"
+    ],
+    [
+        "Human 86.3 89.0 86.9 89.5 # 1 Single - MIR - MRC ( F - Net ) - - 74.8 78.0 # 2 Single - nlnet - - 74.2 77.1 Published unet ( Ensemble ) - - 71.4 74.9 SLQA+ ( Single ) - 71.4 74.4 Ours BERTLARGE ( Single ) 78.7 81.9 80.0 83.1 Table 3",
+        "SQUAD",
+        "2.0 results"
+    ],
+    [
+        "4.4 SWAG The Situations With Adversarial Generations ( SWAG ) dataset",
+        "CONTAIN",
+        "113k sentence - pair com- pletion examples that evaluate grounded common- sense inference ( Zellers et al . , 2018 )"
+    ],
+    [
+        "The BiLSTM",
+        "HURT",
+        "performance on the GLUE tasks"
+    ],
+    [
+        "BERTBASE",
+        "CONTAIN",
+        "110 M parameters and BERTLARGE con"
+    ],
+    [
+        "Peters et al . ( 2018b )",
+        "PRESENT",
+        "( 2016 ) men"
+    ],
+    [
+        "5.3 Feature - based Approach with BERT All of the BERT results presented so far",
+        "USE",
+        "the \ufb01ne - tuning approach , where a simple classi\ufb01- cation layer is added to the pre - trained model"
+    ],
+    [
+        "the feature - based approach , where \ufb01xed features are extracted from the pre- trained model",
+        "HAVE",
+        "certain advantages"
+    ],
+    [
+        "System Dev F1 Test F1 ELMo ( Peters et al . , 2018a ) 95.7 92.2 CVT ( Clark et al . , 2018 ) - 92.6 CSE ( Akbik et al . , 2018 ) - 93.1 Fine - tuning approach BERTLARGE 96.6 92.8 BERTBASE 96.4 92.4 Feature - based approach ( BERTBASE ) Embeddings 91.0 - Second - to - Last Hidden 95.6 - Last Hidden 94.9 - Weighted Sum Last Four Hidden 95.9 - Concat Last Four Hidden 96.1 - Weighted Sum",
+        "NAME",
+        "re- sults"
+    ],
+    [
+        "The reported Dev and Test scores",
+        "AVERAGE",
+        "over 5 random restarts using those hyperparameters"
+    ],
+    [
+        "The best performing method",
+        "CONCATENATE",
+        "the token representations from the top four hidden lay- ers of the pre - trained Transformer , which is only 0.3 F1 behind \ufb01ne - tuning the entire model"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1808.04444"
+    ],
+    [
+        "One billion word benchmark for measur- ing progress in statistical language modeling . arXiv",
+        "PREPRINT",
+        "arXiv:1312.3005"
+    ],
+    [
+        "Automati",
+        "CONSTRUCT",
+        "a corpus of sentential paraphrases"
+    ],
+    [
+        "Maskgan : Better text generation via \ufb01lling in the",
+        "PREPRINT",
+        "arXiv:1801.07736"
+    ],
+    [
+        "Learning",
+        "DISTRIBUTE",
+        "representations of sentences from unlabelled data"
+    ],
+    [
+        "Word",
+        "REPRESENTATION",
+        "A simple and general method for semi - supervised learning"
+    ],
+    [
+        "An- alyzing and Interpreting Neural Networks for NLP",
+        "PAGE",
+        "353\u2013355"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1805.12471"
+    ],
+    [
+        "Google \u2019s neural ma- chine translation system : Bridging the gap between human and machine translation . arXiv",
+        "PREPRINT",
+        "arXiv:1609.08144"
+    ],
+    [
+        "the masked LM",
+        "MAKE",
+        "E1 E2 EN ... T1 T2 TN ... E1 E2 EN"
+    ],
+    [
+        "BERT",
+        "USE",
+        "a bidirectional Transformer"
+    ],
+    [
+        "OpenAI GPT",
+        "USE",
+        "a left - to - right Transformer"
+    ],
+    [
+        "ELMo",
+        "USE",
+        "the concatenation of independently trained left - to - right and right - to- left LSTMs"
+    ],
+    [
+        "The \ufb01rst sentence",
+        "RECEIVE",
+        "the A"
+    ],
+    [
+        "Each pre- training",
+        "TAKE",
+        "4 days"
+    ],
+    [
+        "BERT",
+        "CHOOSE",
+        "a task - speci\ufb01c \ufb01ne - tuning learning rate which performs the best on the development set"
+    ],
+    [
+        "Ti",
+        "REPRESENT",
+        "the contextual representation of token i"
+    ],
+    [
+        "The GLUE benchmark",
+        "INCLUDE",
+        "the following datasets , the descriptions of which were originally summarized in Wang et al"
+    ],
+    [
+        "poten",
+        "PUSH",
+        "the performance"
+    ],
+    [
+        "BERT",
+        "NEED",
+        "such a large amount of pre - training ( 128,000 words / batch * 1,000,000 steps )"
+    ],
+    [
+        "BERTBASE",
+        "ACHIEVE",
+        "almost 1.0 % additional accuracy on MNLI"
+    ],
+    [
+        "Masking Rates Dev Set",
+        "RESULT",
+        "NER Fine - tune Fine - tune Feature - based 80 % 10 % 10 % 84.2 95.4 94.9 100 % 0 % 0 % 84.3 94.9 94.0 80 % 0 % 20 % 84.1 95.2 94.6 80 % 20 % 0 % 84.4 95.2 94.7 0 % 20 % 80 % 83.7 94.8 94.6 0 % 0 % 100 % 83.6 94.9 94.6 Table 8"
+    ],
+    [
+        "The numbers in the left part of the table repre",
+        "SEND",
+        "the probabilities of the speci\ufb01c strategies used during MLM pre - training"
+    ],
+    [
+        "2.1 Setup BERT",
+        "TAKE",
+        "a concatenation of two segments ( sequences of tokens ) , x1"
+    ],
+    [
+        "2.2 Architecture BERT",
+        "USE",
+        "the now ubiquitous transformer archi- tecture ( Vaswani et al . , 2017 ) , which we will not review in detail"
+    ],
+    [
+        "Each block",
+        "USE",
+        "A self - attention heads and hidden dimension H. 2.3 Training Objectives"
+    ],
+    [
+        "Baevski et al . ( 2019 )",
+        "DEMON",
+        "strate"
+    ],
+    [
+        "76 GB af- ter \ufb01ltering).4 \u2022 OPENWEBTEXT ( Gokaslan and Cohen , 2019 ) , an open - source recreation of the WebText cor- 4We",
+        "USE",
+        "news"
+    ],
+    [
+        "The GLUE organizers",
+        "PROVIDE",
+        "training and development data splits as well as a submission server and leader- board that allows participants to evaluate and com"
+    ],
+    [
+        "SQuAD The Stanford Question Answering Dataset ( SQuAD )",
+        "PROVIDE",
+        "a paragraph of context and a question"
+    ],
+    [
+        "the context",
+        "CONTAIN",
+        "an answer"
+    ],
+    [
+        "The orig- inal BERT implementation",
+        "PERFORM",
+        "masking"
+    ],
+    [
+        "Results Table 1",
+        "COMPARE",
+        "results from Devlin"
+    ],
+    [
+        "the model",
+        "OBSERVE",
+        "two concatenated document seg- ments , which are either sampled contiguously from the same document ( with p = 0.5 ) or from distinct documents"
+    ],
+    [
+        "some recent work",
+        "QUESTION",
+        "the necessity of the NSP loss ( Lample and Conneau , 2019 Yang et al . , 2019 ; Joshi et al . , 2019 )"
+    ],
+    [
+        "Each input",
+        "HAVE",
+        "a pair of seg- ments , which can each contain multiple natural sentences"
+    ],
+    [
+        "Development",
+        "SET",
+        "results for base models pretrained over BOOKCORPUS and WIKIPEDIA"
+    ],
+    [
+        "Each input",
+        "CONTAIN",
+        "a pair of natural sentences"
+    ],
+    [
+        "Inputs",
+        "CROSS",
+        "document boundaries"
+    ],
+    [
+        "Results Table 2",
+        "SHOW",
+        "results for the four dif- ferent settings"
+    ],
+    [
+        "both for- mats",
+        "RETAIN",
+        "the NSP loss"
+    ],
+    [
+        "Recent work",
+        "SHOW",
+        "2019"
+    ],
+    [
+        "Models",
+        "MAKE",
+        "the same number of passes over the data ( epochs"
+    ],
+    [
+        "Notably You et al . ( 2019 )",
+        "TRAIN",
+        "BERT"
+    ],
+    [
+        "Radford et al . ( 2019 )",
+        "INTRODUCE",
+        "a clever imple- mentation of BPE that uses bytes instead of uni- code characters as the base subword units"
+    ],
+    [
+        "8Large batch training",
+        "IMPROVE",
+        "training ef\ufb01ciency"
+    ],
+    [
+        "The original BERT implementa- tion ( Devlin et al . , 2019 )",
+        "USE",
+        "a character - level BPE vocabulary of size 30 K , which is learned after preprocessing the input with heuristic tok- enization rules"
+    ],
+    [
+        "Early experiments",
+        "REVEAL",
+        "only slight dif- ferences between these encodings"
+    ],
+    [
+        "2019 )",
+        "PRETRAINE",
+        "nearly 10 times more data than the original BERT ( Devlin et al . , 2019 )"
+    ],
+    [
+        "Development",
+        "SET",
+        "( 16 GB \u2192160 GB of text )"
+    ],
+    [
+        "Each row",
+        "ACCUMULATE",
+        "improvements from the rows above"
+    ],
+    [
+        "RoBERTa",
+        "MATCH",
+        "the architecture and training objective of BERTLARGE"
+    ],
+    [
+        "Speci\ufb01cally 9Our experiments",
+        "CONFLATE",
+        "increases in data size and di- versity"
+    ],
+    [
+        "The rest of the hyper- parameters",
+        "REMAIN",
+        "the same as during pretraining"
+    ],
+    [
+        "Two of the GLUE tasks",
+        "REQUIRE",
+        "task - speci\ufb01c \ufb01netuning approaches"
+    ],
+    [
+        "Recent submissions on the GLUE leaderboard",
+        "ADOPT",
+        "a pairwise ranking formulation for the QNLI task , in which candidate answers are mined from the training set and compared to one another"
+    ],
+    [
+        "RoBERTa",
+        "ACHIEVE",
+        "state - of - the - art results"
+    ],
+    [
+        "RoBERTa",
+        "USE",
+        "the same masked language modeling"
+    ],
+    [
+        "Yang et al . ( 2019 )",
+        "EMPLOY",
+        "to \ufb01netune results"
+    ],
+    [
+        "RoBERTa",
+        "USE",
+        "only the provided SQuAD data"
+    ],
+    [
+        "RoBERTa",
+        "MATCH",
+        "the state - of - the - art set by XLNet"
+    ],
+    [
+        "RoBERTa",
+        "SET",
+        "a new state - of - the - art"
+    ],
+    [
+        "6 Related Work Pretraining methods Howard and Ruder , 2018 ) , machine translation ( McCann et al . , 2017 ) Lample and Conneau , 2019 )",
+        "DESIGN",
+        "ing language modeling ( Dai and Le , 2015"
+    ],
+    [
+        "Many recent papers",
+        "USE",
+        "2018 ) , and pretraining with some variant of a masked language model objective"
+    ],
+    [
+        "newer methods",
+        "IMPROVE",
+        "performance by multi - task \ufb01ne tun- ing ( Dong et al . , 2019 )"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1903.07785"
+    ],
+    [
+        "The second PASCAL",
+        "RECOGNISE",
+        "textual entailment challenge"
+    ],
+    [
+        "the second PASCAL",
+        "CHALLENGE",
+        "workshop on recognis- ing textual entailment"
+    ],
+    [
+        "Auto",
+        "CONSTRUCT",
+        "a corpus of sentential para- phrases"
+    ],
+    [
+        "Gaus- sian error linear units ( gelus ) . arXiv",
+        "PREPRINT",
+        "arXiv:1606.08415"
+    ],
+    [
+        "Race : Large - scale reading comprehension dataset from examinations . arXiv",
+        "PREPRINT",
+        "arXiv:1704.04683"
+    ],
+    [
+        "En",
+        "HANCE",
+        "representation"
+    ],
+    [
+        "Reduc- ing bert pre - training time from 3 days to 76 minutes . arXiv",
+        "PREPRINT",
+        "arXiv:1904.00962"
+    ],
+    [
+        "B Pretraining Hyperparameters Table 9",
+        "DESCRIBE",
+        "the hyperparameters"
+    ],
+    [
+        "Development",
+        "SET",
+        "results on GLUE tasks"
+    ],
+    [
+        "The next section",
+        "DESCRIBE",
+        "mod- els in vision and NLP that have inspired this work"
+    ],
+    [
+        "Different visualization strategies and correspondent analytical results",
+        "PRESENT",
+        "681"
+    ],
+    [
+        "Other relevant attempts Faruqui et al . , 2015 )",
+        "INCLUDE",
+        "Fyshe et al . , 2015"
+    ],
+    [
+        "Such methods",
+        "INCLUDE",
+        "( 1 ) Inversion"
+    ],
+    [
+        "Fyshe et al . ( 2015 )",
+        "USE",
+        "an manual task"
+    ],
+    [
+        "The dataset",
+        "CONTAIN",
+        "gold - standard sentiment labels for every parse tree constituent"
+    ],
+    [
+        "LSTM",
+        "ACHIEVE",
+        "Bidirectional LSTM 0.488 and 0.878 , respectively"
+    ],
+    [
+        "SEQ2SEQ models",
+        "MAP",
+        "an input sequence"
+    ],
+    [
+        "The model",
+        "DEFINE",
+        "P(Y |X"
+    ],
+    [
+        "SEQ2SEQ models",
+        "COMBINE",
+        "the current token with previously built embeddings for next - step word prediction"
+    ],
+    [
+        "Local Composition Figure 1",
+        "SHOW",
+        "a 60d heat- map vector for the representation of selected words / phrases / sentences"
+    ],
+    [
+        "The intensi\ufb01cation part of Figure 1",
+        "SHOW",
+        "sugges- tive patterns where values for a few dimensions are strengthened by modi\ufb01ers like \u201c a lot \u201d ( the red bar in the \ufb01rst example"
+    ],
+    [
+        "Each vertical bar",
+        "SHOW",
+        "the value of one dimension in the \ufb01nal sentence / phrase representation after compositions"
+    ],
+    [
+        "neural models",
+        "LEARN",
+        "clustering negation+positive words ( \u2018 not nice \u2019 , \u2019 not good \u2019 )"
+    ],
+    [
+        "Both sentences",
+        "CONTAIN",
+        "two clauses connected by the conjunction"
+    ],
+    [
+        "models",
+        "REMEMBER",
+        "the word"
+    ],
+    [
+        "The region within dotted line in Figure 3(a )",
+        "FAVOR",
+        "the second assumption : the difference between the two sentences is diluted when the \ufb01nal words ( \u201c in- teresting \u201d and \u201c boring \u201d ) appear"
+    ],
+    [
+        "The magnitude ( absolute value ) of",
+        "DICATE",
+        "the sensitiveness of the \ufb01nal decision to the change in one particular dimension"
+    ],
+    [
+        "All three models",
+        "ASSIGN",
+        "high saliency"
+    ],
+    [
+        "LSTM",
+        "OFFER",
+        "a clearer focus on \u201c hate \u201d than the standard recurrent model"
+    ],
+    [
+        "All three models",
+        "ASSIGN",
+        "the correct sentiment"
+    ],
+    [
+        "The standard recurrent model",
+        "LABEL",
+        "it"
+    ],
+    [
+        "5.2 Results on Sequence - to - Sequence Autoencoder Figure 9",
+        "REPRESENT",
+        "saliency heatmap for auto- encoder"
+    ],
+    [
+        "The heatmaps",
+        "GIVE",
+        "clear overview about the behavior of neural models"
+    ],
+    [
+        "Neural decoding",
+        "COMBINE",
+        "the previously built representation with the word predicted at the cur- rent step"
+    ],
+    [
+        "the in\ufb02uence of language model",
+        "DOMINATE",
+        "less to correspon- dent regions in the inputs , i.e. , the word \u201c boring \u201d in inputs"
+    ],
+    [
+        "A natural history of negation",
+        "VOLUME",
+        "960"
+    ],
+    [
+        "Visualizing and understanding recurrent networks . arXiv",
+        "PREPRINT",
+        "arXiv:1506.02078"
+    ],
+    [
+        "Addressing the rare word problem in neural machine translation . arXiv",
+        "PREPRINT",
+        "arXiv:1410.8206"
+    ],
+    [
+        "Under- standing deep image representations by inverting them . arXiv",
+        "PREPRINT",
+        "arXiv:1412.0035"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1312.6034"
+    ],
+    [
+        "Appendix Recurrent Models A recurrent network",
+        "TAKE",
+        "word"
+    ],
+    [
+        "Multi - layer Recurrent Models Multi - layer recur- rent models",
+        "EXTEND",
+        "one - layer recurrent structure"
+    ],
+    [
+        "by : ht",
+        "GIVE",
+        "l = f(W \u00b7 ht\u22121,l + V \u00b7 ht , l\u22121 ) ( 5 ) where ht,0 = et , which is the original word embed- ding input at current time step"
+    ],
+    [
+        "Bidirectional Models ( Schuster and Paliwal , 1997 )",
+        "ADD",
+        "h\u2192 t\u22121 + V \u2192 \u00b7 et ) h\u2190 t = f(W \u2190 \u00b7 h\u2190 t+1 + V \u2190 \u00b7 et ) ( 7 )"
+    ],
+    [
+        "bidirectional models",
+        "FEED",
+        "the concatena- tion vector calculated from both directions"
+    ],
+    [
+        "The god creation of the world",
+        "LIVE",
+        "things"
+    ],
+    [
+        "The present research article",
+        "ADDRESS",
+        "the concept of workplace spirituality and employee commitment , job satisfaction , work - life balance , and Employee Well - being"
+    ],
+    [
+        "The Mahabharata",
+        "PROVIDE",
+        "us"
+    ],
+    [
+        "The Bhagwat Gita",
+        "GIVE",
+        "guidelines about acceptance , resiliency , and getting support during difficult situations"
+    ],
+    [
+        "the present research article",
+        "ADDRESS",
+        "the conceptual and experimental gap using the conceptual and exponential gap in the concept of workplace spirituality and the relationship between workplace spirituality and Psychological well - being"
+    ],
+    [
+        "The Author",
+        "STUDY",
+        "the impact of workplace spirituality and subjective stress"
+    ],
+    [
+        "The result",
+        "INDICATE",
+        "a positive relationship between spirituality and psychological well - being"
+    ],
+    [
+        "The Author",
+        "COLLECT",
+        "data from secondary school teachers related to specific areas"
+    ],
+    [
+        "The researcher",
+        "CARRY",
+        "further longitudinal research"
+    ],
+    [
+        "White , married , and middle - aged North Carolina United Methodist clergy",
+        "CONDUCT",
+        "the study"
+    ],
+    [
+        "sharing knowledge",
+        "IMPROVE",
+        "the development of both employees and the organization"
+    ],
+    [
+        "The Author",
+        "CONSIDER",
+        "the influence of demographic variables such as Gender , age , and sample size , which does not give a border picture of society.[14"
+    ],
+    [
+        "The data",
+        "COLLECT",
+        "cross - sectional a survey from 38 Australian human resources personnel and"
+    ],
+    [
+        "The Author",
+        "COLLECT",
+        "the data from the employee perspective"
+    ],
+    [
+        "a feeling of spiritual community",
+        "ENCOURAGE",
+        "a more general sense of unity toward competition"
+    ],
+    [
+        "Three hundred fifty teachers from the higher educational sector of India",
+        "USE",
+        "a purposive sampling method and a structural modeling technique for data analysis"
+    ],
+    [
+        "the data",
+        "COLLECT",
+        "Self - managed questionnaires from the employees from the service sector of Singapore , Malaysia and Myanmar"
+    ],
+    [
+        "workplace spirituality",
+        "HAVE",
+        "a substantially significant impact on knowledge - sharing behavior and work engagement"
+    ],
+    [
+        "workplace spirituality",
+        "HAVE",
+        "a significant negative association with turnover and managers from the the healthcare sector"
+    ],
+    [
+        "7 Astakoni",
+        "MAKE",
+        "Purba"
+    ],
+    [
+        "Vision Transformer ( ViT ) attains excellent results compared to state - of - the - art convolutional networks while requiring sub- stantially fewer computational resources to train.1 1 INTRODUCTION Self - attention - based architectures , in particular Transformers ( Vaswani et al . , 2017 )",
+        "BECOME",
+        "the model of choice in natural language processing ( NLP )"
+    ],
+    [
+        "convolutional architectures",
+        "REMAIN",
+        "1989"
+    ],
+    [
+        "Transformers",
+        "LACK",
+        "some of the inductive biases 1Fine - tuning code and pre - trained models"
+    ],
+    [
+        "the best model",
+        "REACH",
+        "the accuracy of 88.55 %"
+    ],
+    [
+        "BERT ( Devlin et al . , 2019 )",
+        "USE",
+        "a denoising self - supervised pre - training task"
+    ],
+    [
+        "( 2018 )",
+        "APPLY",
+        "the self - attention"
+    ],
+    [
+        "Such local multi - head dot - product self attention blocks",
+        "REPLACE",
+        "2019"
+    ],
+    [
+        "Sparse Transformers ( Child et al . , 2019 )",
+        "EMPLOY",
+        "scalable approximations"
+    ],
+    [
+        "Cordonnier et al . ( 2020 )",
+        "USE",
+        "a small patch size of 2 \u00d7 2 pixels , which makes the model applicable only to small - resolution images"
+    ],
+    [
+        "Djolonga et al . ( 2020 )",
+        "PERFORM",
+        "an empirical exploration of CNN transfer learning from large scale datasets such as ImageNet-21k and JFT-300M. We focus on these two latter datasets"
+    ],
+    [
+        "The standard Transformer",
+        "RECEIVE",
+        "a 1D sequence of token embeddings"
+    ],
+    [
+        "The MLP",
+        "CONTAIN",
+        "two layers"
+    ],
+    [
+        "the position embeddings at initialization time",
+        "CARRY",
+        "no information about the 2D positions of the patches and"
+    ],
+    [
+        "the patches",
+        "HAVE",
+        "spatial size 1x1 , which means that the input sequence is obtained by simply \ufb02attening the spatial dimensions of the feature map and projecting to the Transformer dimension"
+    ],
+    [
+        "The Vision Transformer",
+        "HANDLE",
+        "arbitrary sequence lengths ( up to memory constraints )"
+    ],
+    [
+        "VTAB",
+        "EVALUATE",
+        "low - data transfer to diverse tasks"
+    ],
+    [
+        "ViT - L/16",
+        "MEAN",
+        "the \u201c Large \u201d variant with 16\u00d716 input patch size"
+    ],
+    [
+        "Fine - tuning accuracies",
+        "CAPTURE",
+        "the performance of each model"
+    ],
+    [
+        "Table 2",
+        "SHOW",
+        "the results"
+    ],
+    [
+        "The larger model , ViT - H/14",
+        "IMPROVE",
+        "the performance"
+    ],
+    [
+        "Figure 3",
+        "SHOW",
+        "the results"
+    ],
+    [
+        "larger ViT variants",
+        "OVERTAKE",
+        "smaller ones"
+    ],
+    [
+        "Vision Transformers",
+        "OUTPERFORM",
+        "ResNets"
+    ],
+    [
+        "The BiT CNNs",
+        "OUTPERFORM",
+        "ViT"
+    ],
+    [
+        "Figure 4",
+        "CONTAIN",
+        "the results"
+    ],
+    [
+        "Vision Transformers",
+        "OVERFIT",
+        "more than ResNets"
+    ],
+    [
+        "Figure 5",
+        "CONTAIN",
+        "the transfer performance versus total pre - training compute"
+    ],
+    [
+        "Vision Transformers",
+        "DOMINATE",
+        "ResNets"
+    ],
+    [
+        "ViT",
+        "USE",
+        "approximately 2 \u22124\u00d7 less compute"
+    ],
+    [
+        "hybrids",
+        "OUTPERFORM",
+        "ViT"
+    ],
+    [
+        "The \ufb01rst layer of the Vision Transformer",
+        "PROJECT",
+        "the \ufb02attened patches"
+    ],
+    [
+        "Figure 7 ( left )",
+        "SHOW",
+        "the top prin- cipal components of the the learned embedding \ufb01lters"
+    ],
+    [
+        "The com- ponents",
+        "RESEMBLE",
+        "plausible basis functions"
+    ],
+    [
+        "patches in the same row / column",
+        "HAVE",
+        "similar embeddings"
+    ],
+    [
+        "Other attention heads",
+        "HAVE",
+        "consistently small attention distances in the low layers"
+    ],
+    [
+        "4.6 SELF - SUPERVISION Transformers",
+        "SHOW",
+        "impressive performance on NLP tasks"
+    ],
+    [
+        "much of their success",
+        "STEM",
+        "self - supervised pre - training"
+    ],
+    [
+        "Tiles",
+        "SHOW",
+        "the cosine similarity between the position embedding of the patch with the indicated row and column and the position embeddings of all other patches"
+    ],
+    [
+        "Each dot",
+        "SHOW",
+        "the mean attention distance across images"
+    ],
+    [
+        "Appendix B.1.2",
+        "CONTAIN",
+        "further details"
+    ],
+    [
+        "Attention",
+        "AUGMENT",
+        "convolutional networks"
+    ],
+    [
+        "Aaron van",
+        "DEN",
+        "Oord"
+    ],
+    [
+        "arXiv",
+        "PREPRINT",
+        "arXiv:1903.10520 , 2019"
+    ],
+    [
+        "Fixing the train - test resolution discrepancy : Fixef\ufb01cientnet . arXiv",
+        "PREPRINT",
+        "arXiv:2003.08237 , 2020"
+    ],
+    [
+        "Self - training with noisy student",
+        "IMPROVE",
+        "imagenet classi\ufb01cation"
+    ],
+    [
+        "A large - scale study of representation learning with the visual task adaptation benchmark . arXiv",
+        "PREPRINT",
+        "arXiv:1910.04867 , 2019b"
+    ],
+    [
+        "JFT-300 M 7 10\u22123 linear 0.1 0.0 R101x1 JFT-300 M 7 8 \u00b7 10\u22124 linear 0.1 0.0 R152x{1,2 } JFT-300 M 7 6 \u00b7 10\u22124 linear 0.1 0.0 R50+ViT - B/{16,32 } JFT-300 M 7 8 \u00b7 10\u22124 linear 0.1 0.0 R50+ViT - L/32 JFT-300 M 7 2 \u00b7 10\u22124 linear 0.1 0.0 R50+ViT - L/16 JFT-300 M 7/14 4 \u00b7 10\u22124 linear 0.1 0.0 ViT - B/{16,32 } ImageNet-21k 90 10\u22123 linear 0.03 0.1 ViT - L/{16,32 }",
+        "IMAGENETK",
+        "30/90 10\u22123 linear 0.03 0.1 ViT-\u2217 ImageNet 300 3 \u00b7 10\u22123 cosine 0.3 0.1 Table 3 : Hyperparameters for training"
+    ],
+    [
+        "The attention",
+        "WEIGHT",
+        "Aij"
+    ],
+    [
+        "Umsa Umsa \u2208Rk\u00b7Dh\u00d7D ( 8) B EXPERIMENT DETAILS B.1 TRAINING Table 3",
+        "SUMMARIZE",
+        "our training setups"
+    ],
+    [
+        "Figure 8",
+        "SHOW",
+        "5 - shot performance on ImageNet for different con\ufb01gurations"
+    ],
+    [
+        "Decreasing the patch size and thus increasing the effective sequence length",
+        "SHOW",
+        "surprisingly robust improvements without introducing parameters"
+    ],
+    [
+        "two sets of embeddings",
+        "LEARN",
+        "embedding"
+    ],
+    [
+        "Table 8",
+        "SUMMARIZE",
+        "the results from this ablation study on a ViT - B/16 model"
+    ],
+    [
+        "Each dot",
+        "SHOW",
+        "the mean attention distance across images for one of 16 heads"
+    ],
+    [
+        "Figure 12 ( right )",
+        "SHOW",
+        "this quantity"
+    ],
+    [
+        "ViT models",
+        "HAVE",
+        "speed comparable to similar ResNets"
+    ],
+    [
+        "each attention",
+        "MIX",
+        "information along a particular axis"
+    ],
+    [
+        "( 2020b )",
+        "PROPOSE",
+        "the AxialResNet model in which all the convolutions with kernel size 3 \u00d7 3 in a ResNet50 are replaced by axial self - attention , i.e. a row and column attention , augmented by relative positional encoding"
+    ],
+    [
+        "Figure 13",
+        "PRESENT",
+        "the performance of Axial ResNet , Axial - ViT - B/32 and Axial - ViT"
+    ]
+]
