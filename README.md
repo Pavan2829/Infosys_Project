@@ -43,9 +43,11 @@ python run_project.py
 
 ---
 
-## 🤖 Available Question Types
+## 🤖 Intelligent Q&A Capabilities
 
-The system intelligently detects and answers:
+The AI can answer **literally any question** you ask about the uploaded paper by dynamically searching the document vectors! 
+
+For common research queries, the system intelligently detects and categorizes the intent:
 
 ### **1. Objective Question**
 - "What is the main objective of this paper?"
