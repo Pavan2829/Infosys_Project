@@ -9,3 +9,4 @@ spacy
 rouge-score
 bert-score
 nltk
+requests
