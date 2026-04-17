@@ -102,7 +102,16 @@ def chunk_text(text, target_chunk_size=500, sentence_overlap=1):
 # -------------------------------
 # STEP 3 : VECTOR RETRIEVAL WITH RE-RANKING
 # -------------------------------
-def retrieve_relevant_chunks(chunks, question, return_confidence=False):
+def get_chunk_embeddings(chunks):
+    """
+    Pre-compute embeddings for all chunks so they don't have to be recalculated
+    on every single user question.
+    """
+    if not chunks:
+        return np.array([])
+    return model.encode(chunks)
+
+def retrieve_relevant_chunks(chunks, question, return_confidence=False, chunk_embeddings=None):
     """
     Retrieve relevant chunks using embeddings and re-rank with cross-encoder.
     This two-stage retrieval improves accuracy significantly.
@@ -113,7 +122,8 @@ def retrieve_relevant_chunks(chunks, question, return_confidence=False):
         return []
 
     # Stage 1: Semantic retrieval - get more candidates
-    chunk_embeddings = model.encode(chunks)
+    if chunk_embeddings is None:
+        chunk_embeddings = model.encode(chunks)
     question_embedding = model.encode([question])
 
     similarities = np.dot(chunk_embeddings, question_embedding.T).flatten()

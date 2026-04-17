@@ -13,7 +13,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 
 from utils.pdf_extractor import extract_text_from_pdf
-from utils.vector_store import chunk_text
+from utils.vector_store import chunk_text, get_chunk_embeddings
 from utils.rag_pipeline import rag_summarize, rag_answer
 from utils.evaluator import evaluate_llm
 from utils.qa_engine import (
@@ -86,9 +86,10 @@ if uploaded_file is not None:
 
     # Extract once and cache
     if 'text' not in st.session_state:
-        with st.spinner("[Processing] PDF..."):
+        with st.spinner("[Processing] Document structure & creating math vectors (this happens only once)..."):
             st.session_state.text = extract_text_from_pdf(temp_pdf_path)
             st.session_state.chunks = chunk_text(st.session_state.text)
+            st.session_state.chunk_embeddings = get_chunk_embeddings(st.session_state.chunks)
     
     text = st.session_state.text
     chunks = st.session_state.chunks
@@ -179,9 +180,15 @@ if uploaded_file is not None:
             with st.chat_message("assistant", avatar="🤖"):
                 message_placeholder = st.empty()
                 with st.spinner("Thinking..."):
-                    # Generate Answer passing history
+                    # Generate Answer passing history and cached embeddings
                     history_for_context = st.session_state.messages[:-1] # exclude the current prompt just appended
-                    qa_result = answer_structured_question(text, prompt, chunks, chat_history=history_for_context)
+                    qa_result = answer_structured_question(
+                        text, 
+                        prompt, 
+                        chunks, 
+                        chat_history=history_for_context, 
+                        chunk_embeddings=st.session_state.get('chunk_embeddings')
+                    )
                     
                     if qa_result.get('answer'):
                         answer_text = qa_result['answer']
@@ -206,8 +213,12 @@ if uploaded_file is not None:
         st.header("Comprehensive Paper Analysis")
         
         if st.button("[Generate] Full Analysis", key="full_analysis"):
-            with st.spinner("Analyzing paper..."):
-                report = generate_qa_report(text, chunks)
+            with st.spinner("Running 8 heavy analysis queries (this is now much faster!)..."):
+                report = generate_qa_report(
+                    text, 
+                    chunks, 
+                    chunk_embeddings=st.session_state.get('chunk_embeddings')
+                )
                 st.session_state.report = report
         
         if 'report' in st.session_state:
@@ -242,8 +253,12 @@ if uploaded_file is not None:
         st.header("Structured Q&A Report")
         
         if st.button("[Report] Generate Q&A Report", key="qa_report"):
-            with st.spinner("Generating report..."):
-                report = generate_qa_report(text, chunks)
+            with st.spinner("Generating automated report..."):
+                report = generate_qa_report(
+                    text, 
+                    chunks, 
+                    chunk_embeddings=st.session_state.get('chunk_embeddings')
+                )
                 
                 # Display as formatted text
                 report_text = format_report_output(report)

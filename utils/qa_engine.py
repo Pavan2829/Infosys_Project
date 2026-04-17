@@ -116,7 +116,7 @@ def detect_intent(question: str) -> Tuple[str, float]:
     return best_intent, min(best_score, 1.0)
 
 
-def answer_structured_question(text: str, question: str, chunks: List[str] = None, chat_history: List[Dict] = None) -> Dict:
+def answer_structured_question(text: str, question: str, chunks: List[str] = None, chat_history: List[Dict] = None, chunk_embeddings=None) -> Dict:
     """
     Answer a structured question about a research paper.
     
@@ -150,7 +150,7 @@ def answer_structured_question(text: str, question: str, chunks: List[str] = Non
     
     # Retrieve relevant chunks
     try:
-        relevant_chunks, confidence = retrieve_relevant_chunks(chunks, search_query, return_confidence=True)
+        relevant_chunks, confidence = retrieve_relevant_chunks(chunks, search_query, return_confidence=True, chunk_embeddings=chunk_embeddings)
     except Exception as e:
         print(f"Retrieval Error: {e}")
         relevant_chunks = chunks[:5]
@@ -238,7 +238,7 @@ def extract_paper_info(text: str) -> Dict:
     return info
 
 
-def generate_qa_report(text: str, chunks: List[str] = None) -> Dict:
+def generate_qa_report(text: str, chunks: List[str] = None, chunk_embeddings=None) -> Dict:
     """
     Generate a comprehensive Q&A report about a paper.
     Answers common research paper questions automatically.
@@ -271,7 +271,7 @@ def generate_qa_report(text: str, chunks: List[str] = None) -> Dict:
     
     # Answer each question
     for question in important_questions:
-        qa = answer_structured_question(text, question, chunks)
+        qa = answer_structured_question(text, question, chunks, chunk_embeddings=chunk_embeddings)
         report['qa_pairs'].append(qa)
     
     # Generate overall summary
